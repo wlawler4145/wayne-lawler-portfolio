@@ -9,22 +9,25 @@
 
 </head>
 <body>
-  <div>
-  <a href="/">HOME</a>
-  <a href="/projects/index.html">PROJECTS</a>
-  <a href="/media/index.html">MEDIA</a>
-  <a href="/blog/index.html">BLOG</a>
-  <a href="/contact/index.html">CONTACT</a>
-  </div>
+  <ul id="nav">
+    <li><a href="/">HOME</a></li>
+      <li><a href="/projects/index.html">PROJECTS</a></li>
+      <li><a href="/media/index.html">MEDIA</a></li>
+      <li><a href="/blog/index.html">BLOG</a></li>
+      <li><a href="/contact/index.html">CONTACT</a></li>
+    </ul>
 
   <div class="container">
 
   <form action="https://formspree.io/wlawler4145@gmail.com" method="POST">
 
-    <input type="text" name="firstname" value="First Name" size="100" autofocus>
-    <input type="text" name="lastname" value="Last Name" size="100">
-    <input type="email" name="userEmail" placeholder="your.email@example.com">
+    <input type="text" name="firstname" placeholder="First Name" size="100" autofocus>
+    <br></br>
+    <input type="text" name="lastname" placeholder="Last Name" size="100">
+    <br></br>
+    <input type="email" name="userEmail" placeholder="your.email@example.com" required>
 
+    <br></br>
     <label>What's this message about?
       <input type="radio" name="subject" value="professional" checked><span>I'd like to hire you!</span>
       <input type="radio" name="subject" value="personal" checked><span>Personal message</span>
@@ -48,7 +51,7 @@
     <textarea name="user_message" cols="40" rows="8"></textarea>
     <input type="submit">
   </form>
-
+  </div>
 
 
 
