@@ -116,9 +116,6 @@ h2 {font-size: 30px;font-family: sans-serif;
 
   }
 
-  h1 {
-    color:gray;font-family: sans-serif;font-style: italic;font-size: 75px;
-  }
 
   p{
     color:gray;font-family: sans-serif;
@@ -133,7 +130,17 @@ h2 {font-size: 30px;font-family: sans-serif;
   }
 
   #greeting {
-    background-color: cyan; 
+    background-color: cyan;
 
 
+  }
+
+  #myCity {
+    background-color: green;
+    color: white;
+  }
+
+  #projectHeader {
+    font-size: 50px;
+    color: gray;
   }

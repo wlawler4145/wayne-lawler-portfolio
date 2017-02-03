@@ -24,6 +24,6 @@ var classCity =
   "gena": "Ashland", "rebecca": "Memphis", "wayne": "Manchester", "richard": "Galveston", "simone": "Louisville"
 }
 
-var myCity = document.querySelector("wayne");
+var cityOutput = document.querySelector('#myCity')
 
-myCity.innerHTML = "<p>wayne</p>"
+cityOutput.innerHTML = "<p></p>"
