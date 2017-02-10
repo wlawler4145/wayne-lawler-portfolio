@@ -89,7 +89,7 @@ while (p < t) {
   sum += p;
   console.log(sum);
   outputThree += "<li>" + sum + "</li>";
-  p++;
+  p++;                               
 }
 
 outputThree += "</ul>";
